@@ -49,6 +49,7 @@ while True:
 
     mask_ = Image.fromarray(mask)  # Convert the mask to a PIL Image
 
+    # converting to Pillow just to use that convenient getbbox() function so you don't have to write the longer OpenCV math yourself.
     # It scans the entire image and calculates the smallest rectangle that encloses all the white pixels found in the mask. it returns the coordinates of this rectangle as a tuple (left, upper, right, lower).
     bbox = (
         mask_.getbbox()

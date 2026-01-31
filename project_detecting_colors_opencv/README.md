@@ -1,2 +1,2 @@
 # Project: detecting colors opencv
-![My Screenshot](assets/color_detection_screenshot.png)
+![My Screenshot](../assets/readmeImages/color_detection_screenshot.png)

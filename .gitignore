@@ -10,3 +10,4 @@ wheels/
 .venv
 
 clf-data/
+data/

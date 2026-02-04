@@ -1,4 +1,4 @@
-# 🐱 Custom YOLOv8 Instance Segmentation Pipeline
+# 🐱 Custom YOLOv8 Instance Segmentation Pipeline on custom dataset
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![YOLOv8](https://img.shields.io/badge/Model-YOLOv8s--seg-green)

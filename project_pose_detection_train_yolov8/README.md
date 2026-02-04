@@ -1,0 +1,1 @@
+# Train pose detection Yolov8 (Keypoint detection)

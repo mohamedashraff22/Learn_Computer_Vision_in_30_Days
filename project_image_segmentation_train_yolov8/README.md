@@ -1,11 +1,11 @@
 # 🐱 Custom YOLOv8 Instance Segmentation Pipeline
 
-<img src="/assets/readmeImages/image_segmentaion_cat.png" alt=".">
-
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![YOLOv8](https://img.shields.io/badge/Model-YOLOv8s--seg-green)
 ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-teal)
 ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red)
+
+<img src="/assets/readmeImages/image_segmentaion_cat.png" alt=".">
 
 An end-to-end computer vision project that trains a custom **YOLOv8 Instance Segmentation** model on the **Open Images V7** dataset (specifically for Cats) and deploys it using a decoupled **FastAPI** backend and **Streamlit** frontend.
 

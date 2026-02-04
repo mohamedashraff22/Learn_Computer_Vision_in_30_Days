@@ -116,7 +116,3 @@ uv run streamlit run frontend/ui.py
 ## 📝 License
 
 This project is licensed under the MIT License.
-
-```
-
-```

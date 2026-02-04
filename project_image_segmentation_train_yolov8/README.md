@@ -1,6 +1,6 @@
 # 🐱 Custom YOLOv8 Instance Segmentation Pipeline
 
-<img src="/assets/readmeImages/image_segmentaion_cat.png" alt="." width="400">
+<img src="/assets/readmeImages/image_segmentaion_cat.png" alt=".">
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![YOLOv8](https://img.shields.io/badge/Model-YOLOv8s--seg-green)

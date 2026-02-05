@@ -1,5 +1,6 @@
 const video = document.getElementById("video");
 
+// Load the Machine learning models from the "models" folder
 Promise.all([
   faceapi.nets.ssdMobilenetv1.loadFromUri("./models"), // For Face Detection
   faceapi.nets.faceRecognitionNet.loadFromUri("./models"), // For Face Recognition

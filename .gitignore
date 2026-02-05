@@ -13,3 +13,5 @@ clf-data/
 data/
 models/
 testing_video/
+testing_videos/
+output_videos/

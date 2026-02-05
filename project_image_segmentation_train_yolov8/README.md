@@ -5,7 +5,7 @@
 ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-teal)
 ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red)
 
-<img src="/assets/readmeImages/image_segmentaion_cat.png" alt=".">
+<img src="../assets/readmeImages/image_segmentaion_cat.png" alt="." width="800">
 
 An end-to-end computer vision project that trains a custom **YOLOv8 Instance Segmentation** model on the **Open Images V7** dataset (specifically for Cats) and deploys it using a decoupled **FastAPI** backend and **Streamlit** frontend.
 

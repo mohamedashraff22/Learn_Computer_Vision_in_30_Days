@@ -22,7 +22,7 @@ A comprehensive computer vision project exploring **Pose Estimation** (Keypoint 
 ## 🐶 Part 1: Dog Pose Training
 **Goal:** Teach YOLOv8 to understand the anatomy of a dog, which differs significantly from humans (tail, ear positioning, quadruped posture).
 
-<img src="output_videos/dog_image_output.png.png" alt="dog output" width="800">
+<img src="/project_pose_detection_train_yolov8/output_videos/dog_image_output.png.png" alt="dog output" width="800">
 
 ### Key Features
 * **Automated Dataset Management:** Utilizes Ultralytics' `dog-pose.yaml` which automatically downloads ~6,000 annotated dog images.
@@ -42,7 +42,7 @@ A comprehensive computer vision project exploring **Pose Estimation** (Keypoint 
 ## 🏃‍♂️ Part 2: Human Pose Video Inference
 **Goal:** High-accuracy skeleton tracking on video footage without any training required.
 
-<img src="output_videos/human_image_output1.png" alt="dog output" width="600"><img src="output_videos/human_image_output2.png" alt="dog output" width="585">
+<img src="/project_pose_detection_train_yolov8/output_videos/human_image_output1.png" alt="dog output" width="600"><img src="/project_pose_detection_train_yolov8/output_videos/human_image_output2.png" alt="dog output" width="585">
 
 ### Key Features
 * **Medium Model (`yolov8m-pose`):** We use the "Medium" version instead of "Nano" for superior accuracy on moving targets, trading slightly slower speed for better stability.

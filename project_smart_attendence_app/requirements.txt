@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+tensorflow==2.10.0
+tf-keras
+deepface
+numpy
+pandas
+opencv-python-headless
+streamlit
+requests
+pillow
+watchdog

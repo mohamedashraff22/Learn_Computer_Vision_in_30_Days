@@ -1,0 +1,24 @@
+services:
+  backend:
+    build:
+      context: . # The context is the root of the project, where the backend and frontend directories are located
+      dockerfile: backend/Dockerfile 
+    container_name: attendance_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    restart: always
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: attendance_ui
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://backend:8000
+    depends_on:
+      - backend
+    restart: always
